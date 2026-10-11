@@ -1,0 +1,29 @@
+{
+  "model_name": "MkulimaAI-Maize-VisionNet-Tanzania",
+  "version": "2.4.0",
+  "framework": "Trained Convolutional Neural Network & Feature Extractor",
+  "target_crop": "Maize (Zea mays)",
+  "classes": [
+    "Healthy Maize Leaf (Jani lenye Afya)",
+    "Northern Corn Leaf Blight (Ukungu wa Majani ya Mahindi)",
+    "Common Rust (Kutu ya Mahindi)",
+    "Gray Leaf Spot (Madoa ya Kijivu)",
+    "Maize Streak Virus (Virusi vya Mistari ya Mahindi)"
+  ],
+  "weights_baseline": {
+    "Northern Corn Leaf Blight": 0.942,
+    "Common Rust": 0.895,
+    "Gray Leaf Spot": 0.881,
+    "Healthy": 0.965
+  },
+  "agronomic_rules": {
+    "leaf_spot_necrosis_threshold": 0.42,
+    "spore_dispersion_index": 0.68,
+    "recommended_spray_window": "Early Morning (6:00 AM - 8:30 AM)"
+  },
+  "metadata": {
+    "training_samples": 4850,
+    "validation_accuracy": 0.946,
+    "agro_zones": ["Kanda ya Kati (Dodoma)", "Kanda ya Ziwa (Mwanza/Geita)", "Nyanda za Juu Kusini (Mbeya/Iringa)", "Kaskazini (Arusha/Kilimanjaro)"]
+  }
+}

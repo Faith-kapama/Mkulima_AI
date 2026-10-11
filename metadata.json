@@ -1,0 +1,6 @@
+{
+  "name": "MkulimaAI",
+  "description": "AI-powered smart farming assistant for farmers in Tanzania. Features crop health scan, yield prediction, market prices, and agricultural marketplace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

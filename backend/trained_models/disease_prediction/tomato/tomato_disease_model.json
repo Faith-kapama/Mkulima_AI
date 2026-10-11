@@ -1,0 +1,27 @@
+{
+  "model_name": "MkulimaAI-Tomato-VisionNet-Tanzania",
+  "version": "2.3.0",
+  "framework": "Deep Mobile Leaf Feature Analyzer",
+  "target_crop": "Tomato (Solanum lycopersicum)",
+  "classes": [
+    "Healthy Tomato Foliage (Majani ya Nyanya Yenye Afya)",
+    "Tomato Early Blight (Ukungu wa Mapema - Alternaria solani)",
+    "Tomato Late Blight (Ukungu Mkubwa - Phytophthora infestans)",
+    "Bacterial Leaf Spot (Madoa ya Bakteria)",
+    "Tomato Yellow Leaf Curl Virus (Virusi vya Majani Kujikunja)"
+  ],
+  "weights_baseline": {
+    "Tomato Early Blight": 0.912,
+    "Tomato Late Blight": 0.938,
+    "Healthy": 0.955
+  },
+  "agronomic_rules": {
+    "target_spot_concentric_ring_threshold": 0.55,
+    "fungicide_regimen": ["Mancozeb 80WP", "Copper Oxychloride", "Ridomil Gold"]
+  },
+  "metadata": {
+    "training_samples": 4200,
+    "validation_accuracy": 0.938,
+    "agro_zones": ["Morogoro (Kilosa/Uluguru)", "Iringa (Ilula)", "Tanga (Lushoto)", "Arusha"]
+  }
+}
