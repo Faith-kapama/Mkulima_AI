@@ -239,6 +239,6 @@ MkulimaAI includes native support for all **31 administrative regions** of the U
 ## 📄 License & Ownership
 
 Developed with pride for Tanzanian and East African agricultural communities.  
-Distributed under the **MIT License**. Free for commercial and non-commercial community agricultural initiatives.
+By Faith Abraham Kapama
 
 *MkulimaAI — Kulima Kijanja, Mavuno Mengi!*
